@@ -116,7 +116,7 @@ export default function Confirmation ({ customerInfo, handleCustomerInfo }: Conf
                             Credit Card Number
                         </Typography>
                         <Typography variant="body1" color="textSecondary" gutterBottom>
-                            {customerInfo.card_number}
+                            XXXX-XXXX-XXXX-{customerInfo.card_number?.toString().split(' ')[3]}
                         </Typography>
                         <Typography>
                             Expiration Date
