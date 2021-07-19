@@ -27,8 +27,6 @@ export default function PaymentStep(props) {
 
     const classes = useStyles();
 
-    // const [ paymentOption, setPaymentOption ] = useState(customerInfo.payment_option)
-
     const renderContent = (value) => {
         switch (value) {
             case '0': return(
