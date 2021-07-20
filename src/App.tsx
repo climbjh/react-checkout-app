@@ -81,6 +81,15 @@ function App() {
           </Grid>
         </Toolbar>
       </AppBar>
+      <div>
+        <Grid container direction="column" justifyContent="center" alignItems="center">
+          <Grid item>
+            <Typography variant="h1">
+              TESTING TESTING
+            </Typography>
+          </Grid>
+        </Grid>
+      </div>
       <Snackbar open={snackbarOpen} autoHideDuration={6000} onClose={handleClose}>
           <Alert onClose={handleClose} severity="success" variant="filled">
               Your order was submitted successfully!
